@@ -10,7 +10,7 @@ This project is used to explained how to deploy an Angular Frontend to **Google 
 
 ### Update your repository git
 
-Create tow new files in your repository git:
+Create new files in your repository git:
 
 * Dockerfile
 * .dockerignore
@@ -110,3 +110,5 @@ During the verification process, you will link your GCP account and your DNS pro
 ## Deploy new version
 
 A new deployment will be trigger at each commit do on the main branch set in your Cloud Run Service.
+
+!!! warning Don't do over push your main branch. Work in another branch and merge when everything look ok !!!
